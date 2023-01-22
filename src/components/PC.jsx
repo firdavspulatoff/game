@@ -20,8 +20,8 @@ const PC = () => {
             {
                 (data.length>0)&& data.map((games,index)=>{
                     return(
-                        <Link className='card' to={`/infops3/${games.id}`}>
-                            <img src={games.img} alt="name" />
+                        <Link className='card' to={`/info/${games.category}/${games.id}`}>
+                            <img src={games.img} alt="name"/>
                             <h2>{games.name}</h2>
                         </Link>
                     )
