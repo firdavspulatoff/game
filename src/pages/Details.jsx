@@ -9,10 +9,10 @@ import {Link} from 'react-router-dom'
 
 const Details = () => {
     const [data,setData]=useState([])
-    const {id,category} =useParams()
+    const {id} =useParams()
 
     useEffect(() => {
-        axios.get(`https://6373fe5e716c2e1916559a01.mockapi.io/${category}/`+id)
+        axios.get('https://6373fe5e716c2e1916559a01.mockapi.io/Quiz/'+id)
         .then((res)=>{
             console.log(res);
             setData(res.data);

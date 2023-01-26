@@ -26,9 +26,9 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/giftcard" element={<GiftCard/>}/>
       <Route path="/shopingcart" element={<ShopingCart/>}/>
-      {/* <Route path="/details/:id" element={<Details/>}/> */}
-      <Route path="/info/:category/:id" element={<Details/>}/>
-      {/* <Route path="/infops3/:id" element={<InfoPs3/>}/> */}
+      <Route path="/details/:id" element={<Details/>}/>
+      <Route path="/info/:id" element={<Info/>}/>
+      <Route path="/infops3/:id" element={<InfoPs3/>}/>
     </Routes>
 
     {/* <Info></Info> */}
