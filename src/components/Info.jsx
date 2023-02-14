@@ -34,6 +34,7 @@ const Info = () => {
                </div>
                <div className="info__right">
                 <img className='info__img' src={data.img} alt="" />
+                <h1>{data.price}</h1>
                </div>
         </div>
         </>

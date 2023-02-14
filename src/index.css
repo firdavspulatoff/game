@@ -346,3 +346,69 @@ margin-bottom: 70px;
   /* width: 370px; */
   height: 42px;
 }
+.price{
+  margin-top: 10px;
+  color: rgb(116, 18, 47);
+  font-size: 25px;
+  text-align: center;
+}
+.cart__wrap-title{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+}
+.cart__wrap-clear{
+margin-left: 600px;
+color: gray;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+}
+.cart__wrap{
+  padding: 25px 55px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.cart{
+  padding: 10px 55px;
+  display: flex;
+  align-items: center;
+}
+.name__cart{
+  color: whitesmoke;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  /* margin-left: 10px; */
+  /* margin-right: 55px; */
+}
+.cart__wrap-price{
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart__price{
+  color: #020203;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+}
+.cart__chetchiki{
+  margin-left: 30px;
+}
+.btn__plus{
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(214, 214, 214);
+}
+.btn__minus{
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(214, 214, 214);
+}
